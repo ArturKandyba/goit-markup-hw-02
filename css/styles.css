@@ -45,7 +45,7 @@ body {
 }
 /* Header */
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway' sans-serif;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
@@ -74,6 +74,7 @@ body {
 }
 .header-contact {
   color: var(--communication-text-color);
+  text-decoration: none;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -112,8 +113,14 @@ body {
   border-width: 0px;
   cursor: pointer;
 }
+.primary-btn:hover,
+:focus {
+  color: var(--element-white-color);
+  background-color: var(--accent-alternate-color);
+}
 .feature-title {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
