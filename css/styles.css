@@ -65,6 +65,9 @@ body {
 :focus {
   color: var(--accent-color);
 }
+.nav-link:active {
+  color: var(--element-white-color);
+}
 .current {
   color: var(--accent-alternate-color);
 }
@@ -193,4 +196,7 @@ body {
 }
 .footer-logo {
   color: var(--element-white-color);
+}
+.footer-logo:active {
+  color: var(--alternate-text-color);
 }
