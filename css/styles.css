@@ -63,10 +63,11 @@ body {
 }
 .nav-link:hover,
 :focus {
+  background-color: var(--element-white-color);
   color: var(--accent-color);
 }
 .nav-link:active {
-  color: var(--element-white-color);
+  color: var(--accent-color);
 }
 .current {
   color: var(--accent-alternate-color);
